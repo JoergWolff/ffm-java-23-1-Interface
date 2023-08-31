@@ -7,7 +7,7 @@ public class MusicPlayer implements Playable {
 
     @Override
     public void play(String filePath) {
-        System.out.println("Ich spiele die Musik des Files " + filePath);
+        System.out.println("I play the music of the file " + filePath);
         ;
     }
 

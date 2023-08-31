@@ -6,7 +6,7 @@ public class VideoPlayer implements Playable {
     String filePath;
     @Override
     public void play(String filePath) {
-        System.out.println("Ich spiele den Film des Files " + filePath);;
+        System.out.println("I play the movie of the file " + filePath);
     }
 
     public VideoPlayer() {
